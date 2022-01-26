@@ -2,8 +2,33 @@
 <html>
 <head>
 <title>De impact van slechte koffie op de mentale gezondheid</title>
+
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  
-<script>
+
+
+</head>
+
+<body style=font-family:"helvetica">
+<div style="width: 95%">
+<h1>
+  De impact van slechte koffie op de mentale gezondheid
+  </h1>
+  <p>Een nieuwe studie toont aan dat slechte koffie depressieve klachten uitlokt bij 100% van de testpersonen. Het wordt algemeen aangeraden slechte koffie ten alle tijde te vermijden teneinde de mentale gezondheid van het Belgische volk te verbeteren.
+  </p>
+  <h2>
+    Uitvoering van de test
+  </h2>
+  <p>
+    Om tot een unaniem resultaat te komen dronk de testpersoon regelmatig slechte koffie, wetende dat hij thuis goede koffie had staan.
+   De test werd op regelmatige basis uitgevoerd wanneer de testpersoon op kantoor was.
+  </p>
+  <h2>
+    Schematische voorstelling van koffie
+  </h2>
+
+  <div id="myPlot" style="width:100%;max-width:700px"></div>  
+  
+    <script>
 var xArray = [50,60,70,80,90,100,110,120,130,140,150];
 var yArray = [7,8,8,9,9,9,10,11,14,14,15];
 
@@ -24,30 +49,6 @@ var layout = {
 // Display using Plotly
 Plotly.newPlot("myPlot", data, layout);
 </script>
-</head>
-
-<body style=font-family:"helvetica">
-<div style="width: 95%">
-<h1>
-  De impact van slechte koffie op de mentale gezondheid
-  </h1>
-  <p>Een nieuwe studie toont aan dat slechte koffie depressieve klachten uitlokt bij 100% van de testpersonen. Het wordt algemeen aangeraden slechte koffie ten alle tijde te vermijden teneinde de mentale gezondheid van het Belgische volk te verbeteren.
-  </p>
-  <h2>
-    Uitvoering van de test
-  </h2>
-  <p>
-    Om tot een unaniem resultaat te komen dronk de testpersoon regelmatig slechte koffie, wetende dat hij thuis goede koffie had staan.
-   De test werd op regelmatige basis uitgevoerd wanneer de testpersoon op kantoor was.
-  </p>
-  <h2>
-    Schematische voorstelling van koffie
-  </h2>
-  
-  <div id="myPlot" style="width:100%;max-width:700px"></div>
-
-  
-</body>
 
   <h2>Conclusie</h2>
   <p>
@@ -55,4 +56,8 @@ Plotly.newPlot("myPlot", data, layout);
   </p>
   <a href="https://caffenation.be">Caffenation</a>
   </div>
+  
+
+  
+  </body>
 </html>

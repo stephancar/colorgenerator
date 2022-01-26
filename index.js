@@ -29,7 +29,6 @@ document.querySelector('button').addEventListener('click', function()
     blueHex = ('0' + blueNumber.toString(16)).slice(-2);
   
     console.log(redHex, greenHex, blueHex);
-   
     
     color = redHex + greenHex + blueHex ;
     

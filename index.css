@@ -34,7 +34,6 @@ button:hover{
     
     animation: draaien 10s infinite;
     cursor: pointer;
-
 }
 div{
     display: table;

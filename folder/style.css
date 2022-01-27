@@ -1,5 +1,5 @@
 body {
-    font-family: "Arial", sans-serif;
+    font-family: "Helvetica", sans-serif;
 }
 
 section {
@@ -16,7 +16,7 @@ section {
 }
 
 .cell {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Helvetica", sans-serif;
     width: 100px;
     height: 100px;
     box-shadow: 0 0 0 1px #333333;
@@ -28,7 +28,7 @@ section {
 }
 
 div{animation-name: spin;
-    animation-duration: 5000ms;
+    animation-duration: 1000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; }
     /* transform: rotate(3deg); */
